@@ -1,0 +1,29 @@
+#root, html, body, footer {
+    height: 100 vh;
+}
+
+body {
+    margin: 0;
+    /* background-image: url("/home/admin/Desktop/dashboard/Maged2/my-app/src/images/1.gif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
