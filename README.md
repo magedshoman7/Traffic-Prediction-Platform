@@ -1,6 +1,6 @@
 # Traffic-Prediction-Platform-Application-
-The Application is fueled with Connected Vehicles (CV) data and serves as a platform for transportation planners (DOTs) to understand the data through visual analysis, predict the future of traffic flow and speech query the data of interest.
-For the development of the Web-App and User Interface(UI) coding, I used the following languages: HTML; CSS; JavaScript; Python; SQL. In the main folder named “Web-App Structure” which contains two main folders “Front End” and “Back End”. The user-side of a web application is also known as the frontend. Inside the browser, the frontend is the interface that the user can access and interact with. The client-primary side’s goal is to collect data from users in an engaging manner. JavaScript code is used to script the frontend components built in React.js. React.js is an open-source JavaScript package that is used to create single-page apps’ user interfaces. For web and mobile apps, it’s utilized to manage the view layer. We can also make reusable UI components with React.
+This Application is fueled with Connected Vehicles (CV) data and serves as a platform for transportation planners (DOTs) to understand the data through visual analysis, predict the future of traffic flow and speech query the data of interest.
+For the development of the Web-App and User Interface(UI) coding, I used ReactJS and SQLite.
 
 [[Watch the video]](https://www.youtube.com/watch?v=uGxRNU_t8_w)
 <img width="1680" alt="Screen Shot 2023-01-12 at 6 25 43 PM" src="https://user-images.githubusercontent.com/73359826/212223555-43e98773-fcaa-4799-b9e7-c6127f128921.png">
