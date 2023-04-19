@@ -7,7 +7,9 @@ This Application runs on data from Connected Vehicles (CV) and is designed to pr
 
 Web-app visitors are initially directed to the home page upon entering the website. From there, they can access all other pages or routes, including both parent and children pages, via the Navigation bar. This can be observed in the following figure.
 
+
 <img width="1680" alt="Screen Shot 2023-01-12 at 6 33 15 PM" src="https://user-images.githubusercontent.com/73359826/212223896-2fd1c69d-b1b7-4f6d-88a4-bc130385b3a5.png">
+
 
 I utilized Kepler.gl to handle the state and data flow of the Connected Vehicles (CV) dataset. Kepler.gl is a React component that offers a web-based platform to visually explore large geolocation datasets with high performance and data agnosticism. This web application implements Mapbox GL and deck.gl to present millions of points that represent thousands of trips and perform spatial aggregations dynamically. In kepler.gl, layers serve as the basic elements to create interactive maps, which allow customization of layer generation and encoding of data (e.g., fares, ETA, and timestamps) into visual channels (e.g., circle size, arc color, and circle color) with scaling functions (e.g., linear, quantile, and quantize).
 
