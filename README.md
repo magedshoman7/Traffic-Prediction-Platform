@@ -1,10 +1,10 @@
-# Traffic-Prediction-Platform-Application-
-This Application is fueled with Connected Vehicles (CV) data and serves as a platform for transportation planners (DOTs) to understand the data through visual analysis, predict the future of traffic flow and speech query the data of interest.
-For the development of the Web-App and User Interface(UI) coding, I used ReactJS and SQLite.
+# Traffic Prediction Platform Application
+
+This Application runs on data from Connected Vehicles (CV) and is designed to provide transportation planners (DOTs) with a platform for visual analysis of the data, predicting traffic flow patterns, and conducting targeted data queries through speech. To develop the Web-App and User Interface (UI), I utilized ReactJS and SQLite for coding.
 
 [[Watch the video]](https://www.youtube.com/watch?v=uGxRNU_t8_w)
 <img width="1680" alt="Screen Shot 2023-01-12 at 6 25 43 PM" src="https://user-images.githubusercontent.com/73359826/212223555-43e98773-fcaa-4799-b9e7-c6127f128921.png">
-Starting at the first page, web-app visitors are first welcomed with the home page as presented in the following figure. The Navigation bar is then presented along all parent and children pages or routes. 
+Web-app visitors are initially directed to the home page upon entering the website. From there, they can access all other pages or routes, including both parent and children pages, via the Navigation bar. This can be observed in the following figure.
 <img width="1680" alt="Screen Shot 2023-01-12 at 6 33 15 PM" src="https://user-images.githubusercontent.com/73359826/212223896-2fd1c69d-b1b7-4f6d-88a4-bc130385b3a5.png">
 
 To manage the state and data flow of the CV dataset, I used Kepler.gl. Kepler, a React component, is a web-based application for visual exploration of large-scale geolocation data sets that is data agnostic and high-performance. This web app uses Mapbox GL and deck.gl to render millions of points representing thousands of trips and conduct spatial aggregations on the fly. Layers are used as building blocks in kepler.gl to generate interactive maps, with customizable layer generation and data (e.g., fares, ETA, and timestamps) encoded to visual channels (e.g., circle size, arc color, and circle color) with scaling functions (e.g., linear, quantile, and quantize). 
